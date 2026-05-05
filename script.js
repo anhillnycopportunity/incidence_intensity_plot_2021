@@ -47,11 +47,11 @@ async function drawChart() {
     },
 
     title: {
-      text: "Job Characteristics by Industry in New York City, 2024"
+      text: "Incidence and Intensity of Poverty, 2021"
     },
 
     subtitle: {
-        text: 'Source: Census Bureaus American Community Survey One-Year Public Use Micorodata'
+        text: 'Source: Census Bureaus American Community Survey One-Year Public Use Micorodata, as augmented by NYC Opportunity'
     },
 
 
@@ -62,10 +62,10 @@ async function drawChart() {
      xAxis: {
         gridLineWidth: 1,
         title: {
-            text: 'Ratio of Part-Time to Full-Time Workers'
+            text: 'Poverty Rate'
         },
         labels: {
-            format: '{value}'
+            format: '{value}%'
         },
         plotLines: [{
             dashStyle: 'dot',
@@ -73,11 +73,11 @@ async function drawChart() {
             value: .5,
             label: {
                 rotation: 0,
-                y: 50,
+                y: 13.4,
                 style: {
                     fontStyle: 'italic'
                 },
-                text: 'Ratio Part-time Full-time'
+                text: 'Citywide Poverty (13.4%)'
             },
             zIndex: 3
         }]
@@ -87,10 +87,10 @@ async function drawChart() {
         startOnTick: false,
         endOnTick: false,
         title: {
-            text: 'Percent Industry Median to Citywide Median Wage'
+            text: 'Intensity of Poverty'
         },
         labels: {
-            format: '{value}%'
+            format: '{value}'
         },
         maxPadding: .1,
         plotLines: [{
@@ -102,8 +102,8 @@ async function drawChart() {
                 style: {
                     fontStyle: 'italic'
                 },
-                text: 'Equal to Citywide Median Wage',
-                x: 0.5
+                text: 'Citywide Intensity (38.2)',
+                x: 38.2
             },
             zIndex: 3
         }]
