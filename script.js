@@ -1,5 +1,5 @@
 async function loadCSV() {
-  const response = await fetch("test_data.csv");
+  const response = await fetch("incidence_intensity_poverty_2021_forGHP.csv");
   const text = await response.text();
 
   const rows = text.trim().split("\n");
