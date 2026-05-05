@@ -70,7 +70,7 @@ async function drawChart() {
         plotLines: [{
             dashStyle: 'dot',
             width: 2,
-            value: .5,
+            value: 13.4,
             label: {
                 rotation: 0,
                 y: 13.4,
@@ -96,7 +96,7 @@ async function drawChart() {
         plotLines: [{
             dashStyle: 'dot',
             width: 2,
-            value: 1,
+            value: 38.2,
             label: {
                 align: 'right',
                 style: {
