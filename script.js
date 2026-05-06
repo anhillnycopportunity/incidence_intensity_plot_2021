@@ -118,6 +118,11 @@ async function drawChart() {
         "z: {point.z}"
     },
 
+    exporting: {
+        enabled: true,
+        showTable: false // Optionally show table below chart initially
+    },
+
     series: series
   });
 }
