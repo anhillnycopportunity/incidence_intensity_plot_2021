@@ -73,7 +73,7 @@ async function drawChart() {
             value: 13.4,
             label: {
                 rotation: 0,
-                y: .5,
+                y: -.5,
                 style: {
                     fontStyle: 'italic'
                 },
@@ -103,7 +103,7 @@ async function drawChart() {
                     fontStyle: 'italic'
                 },
                 text: 'Citywide Intensity (38.2)',
-                x: .5
+                x: -.5
             },
             zIndex: 3
         }]
