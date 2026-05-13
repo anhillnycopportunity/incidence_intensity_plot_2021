@@ -73,7 +73,7 @@ async function drawChart() {
             value: 13.4,
             label: {
                 rotation: 0,
-                y: .5,
+                y: 5,
                 style: {
                     fontStyle: 'italic'
                 },
